@@ -36,7 +36,7 @@ public class TCPTest1 {
 			while ((len = is.read(buffer)) != -1) {
 				baos.write(buffer, 0, len);
 			}
-			System.out.println(baos);
+			System.out.println(baos.toString()); 
 		} catch (IOException e) {
 
 		}
