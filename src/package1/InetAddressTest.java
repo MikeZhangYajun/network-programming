@@ -9,6 +9,8 @@ public class InetAddressTest {
 		try {
 			System.out.println(InetAddress.getByName("127.0.0.1"));
 			System.out.println(InetAddress.getByName("www.algonquincollege.com"));
+			System.out.println(InetAddress.getLocalHost());
+			
 		} catch (UnknownHostException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
